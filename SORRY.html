@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apology Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+      background-color: #3E2723; /* Dark Brown */
+      color: #fff; /* White text for better contrast */
+    }
+
+    h1 {
+      color: #8D6E63; /* Brownish text color */
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .panda-container {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      margin: 20px auto;
+    }
+
+    .panda {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      animation: bounce 1s infinite alternate;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="checkbox"] {
+      transform: scale(1.5);
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    /* New styling for the second GIF at the bottom */
+    .bottom-gif-container {
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+
+    .bottom-gif {
+      width: 100%;
+      max-width: 400px; /* Adjust the size as needed */
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* New styling for the text below the second GIF */
+    .apology-text {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Apology Letter</h1>
+  <p> My Dear SUNFLOWER 🌻,</p>
+  <p>Hey Kachu i know there's no way blackmailing you and i am already regretting it a lot like how can you just take my sunflower away from me?? have some mercy on me this is not fair na, but yeah i get it it's my fault too i shouldn't blackmail you but yaar i was just blacmailing to make you blush it was harmless blacmail ne 🥺🥺🥺🥺. Please don't be mad at your Brownie you don't want your Brownie to smile anymore?🥺. Your Brownie's saying sorry na comeon na please forgive me please Brownie will treat you i promise. </p>
+
+  <div class="panda container">
+    <img class="panda" src="https://www.icegif.com/wp-content/uploads/crying-6.gif" alt="SORRY">
+  </div>
+
+  <form id="apologyForm">
+    <label for="forgiven">HAVE YOU FORGIVEN ME????</label>
+    <input type="checkbox" id="forgiven" name="forgiven" value="yes"> Yessssssssssssssssssssss
+    <input type="checkbox" id="notForgiven" name="forgiven" value="no" disabled> No
+    <br>
+    <button type="button" onclick="submitForm()">Submit</button>
+  </form>
+
+  <!-- New section for the second GIF at the bottom -->
+  <div class="bottom-gif-container">
+    <img class="bottom-gif" src="https://www.icegif.com/wp-content/uploads/icegif-172.gif" alt="Bottom GIF"> 
+  </div>
+
+  <!-- Text below the second GIF -->
+  <div class="apology-text">
+    <p>This is me when Kachu isn't smiling </p>
+  </div>
+
+  <script>
+    function submitForm() {
+      // You can add additional logic here to handle the form submission
+      alert("Thank you for your response. Now please send me a cute selfie of my Sunflower 🌻 ");
+    }
+  </script>
+</body>
+</html>
